@@ -33,7 +33,7 @@ header p {
     outline: none;
     border-radius: 8px;
     border: solid #F999B7;
-    padding: 10px;
+    padding: 9px;
 }
 
 #SquareSide:focus {
@@ -45,7 +45,7 @@ button {
     color: white;
     border: none;
     border-radius: 8px;
-    padding: 10px 20px;
+    padding: 9px 18px;
     cursor: pointer;
 }
 
