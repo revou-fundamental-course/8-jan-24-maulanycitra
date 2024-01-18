@@ -1,5 +1,26 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin-top: 90px;
+    padding: 15px;
+    border: 1px solid rgb(214, 214, 214);
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(243, 239, 239)
+}
+
+h1 {
+    margin-top: -110px;
+    margin-left: -40px;
+    margin-right: -40px;
+    color: #FEE3EC;
+    background-color: #F2789F;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
@@ -7,23 +28,102 @@ header {
 }
 
 header h1 {
+    margin-top: 10px;
     color: #F2789F;
     background-color: #FEE3EC;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header h4 {
-    margin-top: 32px;
+    margin-top: 50px;
     color: #F2789F;
+    margin-bottom: 28px;
 }
 
 header p {
-    margin-top: -10px;
-    font-size: x-small;
+    margin-top: -20px;
+    font-size: smaller;
     color: #F999B7;
     margin-bottom: 20px;
 }
 
+.switchToSquare {
+    text-align: center;
+    background-color: #F999B7;
+    padding-left: 5px;
+    box-sizing: border-box; 
+    margin-top: -5px;
+    padding: 10px;    
+    color: #FEE3EC;
+    border-radius: 5px;
+}
+
+.switchToRectangle {
+    text-align: center;
+    background-color: white;
+    padding-left: 5px;
+    box-sizing: border-box; 
+    margin-top: -18px;
+    padding: 10px;    
+    color: #F999B7;
+    border-radius: 5px;
+}
+
+div h4 {
+    text-align: center;
+    background-color: #F999B7;
+    padding-left: 5px;
+    box-sizing: border-box; 
+    margin-top: -15px;
+    margin-bottom: -1px;
+    padding: 28px;    
+    color: #FEE3EC;
+    font-size: 21px;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    align-items: center;
+    margin-top: -50px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+div a {
+    margin-top: -5px;
+    font-size: 14px;
+}
+
+div b {
+    font-size: 14px;
+}
+
+div c {
+    font-size: 14px;
+}
+
+div d {
+    font-size: 14px;
+}
+
+div e {
+    font-size: 14px;
+}
+
+div label {
+    font-size: 20px;
+    text-align: center;
+}
+
 .inputSection {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align: center;
     display: flex;
     flex-direction: column;
 }
@@ -41,6 +141,7 @@ header p {
 }
 
 button {
+    margin-top: 8px;
     background-color: #F999B7;
     color: white;
     border: none;
@@ -56,4 +157,8 @@ button:hover {
 button:active {
     background-color: #FF3F7C;
     transform: translateY(2px);
+}
+
+.countButton {
+    text-align: center;
 }

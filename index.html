@@ -5,21 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Katik Persegi</title>
+    <h1>Katik (Kalkulator Matematik)</h1>
 </head>
 <body>
     <header>
-        <h1>Kalkulator Luas dan Keliling Persegi</h1>
-        <h4>Welcome to Kalkulator Luas dan Keliling Persegi</h4>
-        <p>Web ini digunakan untuk menghitung Luas dan Keliling Persegi dalam rangka menyelesaikan mini project di Revou</p>
+        <h4>Welcome to Kalkulator Matematik</h4>
+        <p>Hai Sobat, Selamat datang di katik</p>
+        <p>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
     </header>
 
+    <div class="switching"></div>
+        <h6 class="switchToSquare">Persegi</h6>
+        <h6 class="switchToRectangle">Persegi Panjang</h6>
+    </div>
+
+    <div>
+        <h4>Luas Persegi</h4>
+        <img src="asset/persegi.png" alt="Gambar Persegi" style="text-align: center">
+    </div>
+
+    <div class="formulaText">
+        <a>Rumus Luas Persegi yaitu: </a>
+        <br />
+        <b>L= S x S </b>
+        <br />
+        <c>Dimana:</c>
+        <br />
+        <d>L= Luas</d>
+        <br />
+        <e>S= Sisi</e>
+        <br />
+        <br />
+        <label for="squareSide" id="lblSquareSide">Hitung Luas Persegi</label>
+    </div>
+    
     <div class="inputSection">
-        <label for="SquareSide" id="lblSquareSide">Hitung Luas Persegi</label>
-        <input type="number" id="SquareSide">
+        <input placeholder="Nilai Sisi" type="number" id="squareSide">
     </div>
+
+    <div id="resultArea"></div>
+
     <div class="buttons">
-        <button id="countButton">Hitung</button>
-        <button id="resetButton">Reset</button>
+        <button onclick="counting()" class="countButton" id="countButton">Hitung</button>
+        <br />
+        <button class="resetButton" id="resetButton">Reset</button>
     </div>
+
+        
 </body>
+<script src="js/scrpit.js"></script>
 </html>
